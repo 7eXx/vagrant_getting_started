@@ -67,4 +67,7 @@ Vagrant.configure("2") do |config|
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
+
+  # Select libvirt as privider
+  confiv.vm.provider = "libvirt"
 end
